@@ -202,18 +202,18 @@ hr {
 }
 
 /* contact Section */
-#contact .contact {
+.contact {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
   width: 90%;
 }
 
-#contact .contact-items {
+.contact-items {
   width: 100%;
 }
 
-#contact .contact-item {
+.contact-item {
   width: 40%;
   padding: 20px;
   text-align: center;
@@ -228,11 +228,11 @@ hr {
   transition: 0.3s ease box-shadow;
 }
 
-#contact .contact-item:hover {
+.contact-item:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
 }
 
-#contact .icon {
+.icon {
   object-fit: scale-down;
   float: left;
   width: 100px;
@@ -240,7 +240,7 @@ hr {
   object-fit: cover;
 }
 
-#contact .contact-info h1 {
+ .contact-info h1 {
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 5px;
@@ -252,7 +252,7 @@ hr {
 
 }
 
-#contact .contact-info h2 {
+ .contact-info h2 {
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 500;
@@ -285,35 +285,35 @@ hr {
   text-align: center;
 }
 
-#footer .container {
+ .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#footer h1 {
+ h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-#footer .social-icons {
+ .social-icons {
   margin-bottom: 30px;
 }
 
-#footer .social-icons a {
+ .social-icons a {
   display: inline-block;
   margin: 0 15px;
 }
 
-#footer .social-icons img {
+ .social-icons img {
   width: 100px;
   height: 100px;
   filter: grayscale(1);
   transition: 0.3s ease filter;
 }
 
-#footer .social-icons a:hover img {
+.social-icons a:hover img {
   filter: grayscale(0);
 }
 
